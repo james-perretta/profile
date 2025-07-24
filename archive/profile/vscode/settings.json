@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.fontFamily": "'Ubuntu Mono', monospace",
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.folding": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [79, 99],
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "files.eol": "\n",
+
+    "[python]": {
+        "editor.rulers": [72, 79, 99]
+    },
+
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/*.pyc": true,
+        "**/coverage": true,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "editor.autoIndent": false,
+    "vetur.format.enable": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false
+}

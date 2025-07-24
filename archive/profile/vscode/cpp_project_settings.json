@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "*.o": true,
+        "*.exe": true,
+        "*.pdf": true,
+        "*.dSYM": true,
+        "*.d": true
+    },
+    "clang.cxxflags": [
+        "--std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-pedantic"
+    ],
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_formatOnSave": true,
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.autocomplete": "Disabled"
+}

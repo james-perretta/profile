@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.rulers": [72, 79, 99],
+
+    "python.pythonPath": "${workspaceRoot}/venv/bin/python3",
+
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "${workspaceRoot}/venv/bin/mypy",
+    "python.linting.mypyArgs": [
+        "--silent-imports"
+    ],
+
+    "python.linting.prospectorEnabled": false,
+
+    // The VSCode python plugin turns on pylint by default, so we want
+    // to explicitly disable it
+    "python.linting.pylintEnabled": false,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        ".vscode": false,
+    }
+}

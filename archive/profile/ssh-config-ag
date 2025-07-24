@@ -1,0 +1,85 @@
+Host class2
+  HostName class2.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host class3
+  HostName class3.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host class4
+  HostName class4.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host class1
+  HostName class1.eecs.umich.edu
+  User jameslp 
+  ForwardAgent yes
+
+Host g280
+    HostName g280-1.eecs.umich.edu
+    User jameslp
+    ForwardAgent yes
+
+Host class7
+  HostName class7.eecs.umich.edu
+  User jameslp 
+  ForwardAgent yes
+
+Host class8
+  HostName class8.eecs.umich.edu
+  User jameslp 
+  ForwardAgent yes
+
+Host class9
+  HostName class9.eecs.umich.edu
+  User jameslp 
+  ForwardAgent yes
+
+Host class10
+  HostName class10.eecs.umich.edu
+  User jameslp 
+  ForwardAgent yes
+
+Host ag1
+  HostName autograderio01.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host ag2
+  HostName autograderio02.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host ag3
+  HostName autograderio03.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host ag4
+  HostName autograderio04.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host bee1
+  HostName agworker1.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host bee2
+  HostName agworker2.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host bee3
+  HostName agworker3.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host bee4
+  HostName agworker4.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+

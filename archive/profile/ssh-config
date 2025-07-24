@@ -1,0 +1,19 @@
+Host caen 
+  HostName oncampus-course.engin.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host jameslpno
+  HostName jameslp.eecs.umich.edu
+  User jameslp
+  ForwardAgent no
+
+Host jameslp
+  HostName jameslp.eecs.umich.edu
+  User jameslp
+  ForwardAgent yes
+
+Host waluigi
+  HostName localhost
+  User waluigi
+  Port 2222

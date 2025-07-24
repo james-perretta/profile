@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+import unittest
+
+class Test${1:to_test}(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def test_${2}(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+if __name__ == '__main__':
+    unittest.main()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>punit</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

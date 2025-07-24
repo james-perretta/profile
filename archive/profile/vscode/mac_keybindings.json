@@ -1,0 +1,24 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "cmd+l",                 "command": "expandLineSelection",
+                                         "when": "editorTextFocus" },
+    { "key": "shift+ctrl+up",            "command": "editor.action.insertCursorAbove",
+                                         "when": "editorTextFocus" },
+    { "key": "shift+cmd+l",           "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+                                         "when": "editorTextFocus" },
+    { "key": "shift+ctrl+down",          "command": "editor.action.insertCursorBelow",
+                                         "when": "editorTextFocus" },
+    { "key": "cmd+r",           "command": "workbench.action.gotoSymbol" },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.gotoLine",
+    },
+    { "key": "cmd+shift+r",                 "command": "workbench.action.showAllSymbols" },
+    { "key": "alt+space",            "command": "editor.action.triggerSuggest",
+                                         "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly" },
+    {
+        "key": "cmd+j",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus"
+    }
+] 

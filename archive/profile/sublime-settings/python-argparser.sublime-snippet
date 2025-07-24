@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+import argparse
+
+
+def main():
+    args = parse_args()
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("$1")
+
+    return parser.parse_args()
+
+
+if __name__ == '__main__':
+    main()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>args</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+	<description>Function</description>
+</snippet>

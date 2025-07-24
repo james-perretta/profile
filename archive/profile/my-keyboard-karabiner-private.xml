@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+        <name>Swap Backslash and Tab</name>
+        <identifier>private.swap_backslash_and_tab</identifier>
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::TAB</autogen>
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::BACKSLASH</autogen>
+    </item>
+
+    <item>
+        <name>Use Dvorak - Qwerty Keyboard Layout</name>
+        <appendix>(QWERTY to Dvorak)</appendix>
+        <appendix>(+ Command,Control,Option+Keys to QWERTY)</appendix>
+        <identifier>remap.qwertytodvorak_qwerty</identifier>
+
+        <autogen>__KeyToKey__ KeyCode::R, KeyCode::P</autogen>
+        <autogen>__KeyToKey__ KeyCode::T, KeyCode::Y</autogen>
+        <autogen>__KeyToKey__ KeyCode::Y, KeyCode::F</autogen>
+        <autogen>__KeyToKey__ KeyCode::U, KeyCode::G</autogen>
+        <autogen>__KeyToKey__ KeyCode::I, KeyCode::C</autogen>
+        <autogen>__KeyToKey__ KeyCode::O, KeyCode::R</autogen>
+        <autogen>__KeyToKey__ KeyCode::P, KeyCode::L</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::S, KeyCode::O</autogen>
+        <autogen>__KeyToKey__ KeyCode::D, KeyCode::E</autogen>
+        <autogen>__KeyToKey__ KeyCode::F, KeyCode::U</autogen>
+        <autogen>__KeyToKey__ KeyCode::G, KeyCode::I</autogen>
+        <autogen>__KeyToKey__ KeyCode::H, KeyCode::D</autogen>
+        <autogen>__KeyToKey__ KeyCode::J, KeyCode::H</autogen>
+        <autogen>__KeyToKey__ KeyCode::K, KeyCode::T</autogen>
+        <autogen>__KeyToKey__ KeyCode::L, KeyCode::N</autogen>
+        <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::S</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::X, KeyCode::Q</autogen>
+        <autogen>__KeyToKey__ KeyCode::C, KeyCode::J</autogen>
+        <autogen>__KeyToKey__ KeyCode::V, KeyCode::K</autogen>
+        <autogen>__KeyToKey__ KeyCode::B, KeyCode::X</autogen>
+        <autogen>__KeyToKey__ KeyCode::N, KeyCode::B</autogen>
+        <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::W</autogen>
+        <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::V</autogen>
+        <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::Z</autogen>
+
+        <!-- Punctuation and symbols -->
+
+        <autogen>__KeyToKey__ KeyCode::Q, KeyCode::SEMICOLON</autogen>
+        <autogen>__KeyToKey__ KeyCode::W, KeyCode::COMMA</autogen>
+        <autogen>__KeyToKey__ KeyCode::E, KeyCode::DOT</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::Z, KeyCode::BACKSLASH</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::TAB</autogen>
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::QUOTE</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::SLASH</autogen>
+
+        <!-- + in ` location, ` relocated -->
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE</autogen>
+
+        <!-- _ and = in = location -->
+        <autogen>__KeyToKey__ KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::EQUAL</autogen>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+
+        <!-- Swap {} and [] -->
+        <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BRACKET_LEFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BRACKET_RIGHT</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
+
+    <item>
+        <name>Custom Programmer Layout</name>
+        <identifier>remap.programmer-symbols</identifier>
+
+        <!-- <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::BACKSLASH</autogen> -->
+
+        <!-- Punctuation and symbols -->
+        <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::TAB</autogen>
+        <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::BACKSLASH</autogen>
+
+        <!-- <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::SLASH</autogen> -->
+
+        <!-- + in ` location, ` relocated -->
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE,
+                 MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BACKQUOTE</autogen>
+
+        <!-- _ and = in = location -->
+        <autogen>__KeyToKey__ KeyCode::EQUAL, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::EQUAL</autogen>
+        <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::MINUS, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+
+        <!-- Swap {} and [] -->
+        <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BRACKET_LEFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT, KeyCode::BRACKET_RIGHT</autogen>
+
+        <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::BRACKET_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+        <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::BRACKET_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_SHIFT</autogen>
+    </item>
+</root>

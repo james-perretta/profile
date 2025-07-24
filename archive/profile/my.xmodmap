@@ -1,0 +1,24 @@
+clear control
+clear mod4
+
+keycode 105 =
+keycode 206 =
+
+keycode 133 = Control_L NoSymbol Control_L
+keycode 134 = Control_R NoSymbol Control_R
+keycode 37 = Super_L NoSymbol Super_L
+
+add control = Control_L
+add control = Control_R
+add mod4 = Super_L
+
+
+
+keycode 49 = plus asciitilde
+keycode 23 = backslash bar backslash bar
+keycode 51 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+keycode 20 = minus grave minus grave
+keycode 21 = underscore equal underscore equal
+
+keycode  34 = braceleft bracketleft braceleft bracketleft braceleft bracketleft braceleft bracketleft
+keycode  35 = braceright bracketright braceright bracketright braceright bracketright braceright bracketright

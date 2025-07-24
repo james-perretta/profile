@@ -1,0 +1,8 @@
+! backslash becomes tab
+keycode  51 = Tab ISO_Left_Tab Tab ISO_Left_Tab Tab ISO_Left_Tab
+
+! tab becomes backslash
+keycode  23 = backslash bar backslash bar backslash bar
+
+! tilde default instead of grave
+keycode  49 = asciitilde grave asciitilde grave dead_grave dead_tilde dollar asciitilde dead_tilde dead_tilde

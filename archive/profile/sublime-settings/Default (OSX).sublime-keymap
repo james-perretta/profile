@@ -1,0 +1,3 @@
+[
+    { "keys": ["super+shift+o"], "command": "sftp_browse_server" },
+]

@@ -1,0 +1,49 @@
+echo 'Loading aliases...'
+
+alias refresh-profile='source ~/.bashrc'
+
+alias psh='pipenv shell'
+
+# alias caen-ssh='ssh -Y jameslp@login.engin.umich.edu'
+alias py-diff='diff_files.py'
+
+alias grep='grep --colour=auto'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+
+# Clear the screen (no scrollback
+alias clr='printf "\033c"'
+
+# Safety aliases
+function rm ()
+{
+    echo "I don't think you really want to do that"
+}
+
+alias cp='cp -i'
+alias mv='mv -i'
+
+# My custom find script
+alias find='find.py'
+
+# Aliases for git commands
+alias gs='git status'
+alias ga='git add'
+alias gau='git add -u'
+alias gc='git commit -m'
+alias gp='git push'
+alias gpl='git pull'
+alias gfo='git fetch origin'
+
+alias g++11='g++ -Wall -Wextra -pedantic --std=c++11' 
+alias g++14='g++ -Wall -Wextra -pedantic --std=c++14' 
+alias gpp17='g++ -Wall -Wextra -pedantic --std=c++17 -g'
+alias gpp20='g++ -Wall -Wextra -pedantic --std=c++2a -g'
+# alias mv='mv -v'
+
+# alias ls='ls -GFh'
+
+alias vsp="tmux split-window -h"
+alias hsp="tmux split-window -v"
+

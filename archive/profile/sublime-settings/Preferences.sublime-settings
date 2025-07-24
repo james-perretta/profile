@@ -1,0 +1,20 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/User/SublimeLinter/Active4D (SL).tmTheme",
+	"default_line_ending": "unix",
+	"drag_text": false,
+	"fold_buttons": false,
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		72,
+		79,
+		99
+	],
+	"tab_size": 4,
+	"word_wrap": false
+}

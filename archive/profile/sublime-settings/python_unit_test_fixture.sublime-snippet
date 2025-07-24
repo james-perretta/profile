@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+class Test${1:to_test}(unittest.TestCase):
+
+    def setUp(self):
+        pass
+
+    def test_${2}(self):
+        pass
+
+    def tearDown(self):
+        pass
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>testfixture</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

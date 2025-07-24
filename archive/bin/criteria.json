@@ -1,0 +1,58 @@
+{
+    "Internal Documentation": {
+        "verbal_score_options": [
+            "excellent", "good", "scattered", "none"
+        ],
+        "verbal_to_numeric_scores": {
+              "excellent": 3,
+              "good": 2,
+              "scattered": 1,
+              "none": 0
+        }
+    },
+  
+
+    "Use of Functions": {
+        "verbal_score_options": [
+            "too_few", "good", "too_many"
+        ],
+        "verbal_to_numeric_scores": {
+            "too_few": 0,
+            "good": 2,
+            "too_many": 1
+        }
+    },
+
+    "Pass by Pointer/Reference": {
+        "verbal_score_options": [
+            "always", "mostly", "never"        
+        ],
+        "verbal_to_numeric_scores": {
+            "always": 2,
+            "mostly": 1,
+            "never": 0
+        }
+    },
+
+    "Readability": {
+        "verbal_score_options": [
+            "excellent", "readable", "marginal", "difficult"
+        ],
+        "verbal_to_numeric_scores": {
+            "excellent": 2,
+            "marginal": 1,
+            "difficult": 0
+        }
+    },
+
+    "Test Cases": {
+        "verbal_score_options": [
+            "good", "fair", "poor"
+        ],
+        "verbal_to_numeric_scores": {
+            "good": 3,
+            "fair": 2,
+            "poor": 0
+        }
+    }
+}

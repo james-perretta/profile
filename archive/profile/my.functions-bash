@@ -1,0 +1,86 @@
+function sshbee()
+{
+    num=$1
+    shift
+    ssh "agworker$num.eecs.umich.edu" $@
+}
+
+function sshstage() 
+{
+    num=$1
+    shift
+    ssh "autograder@ag-staging-$num.eecs.umich.edu" $@
+}
+
+
+# Recycle. Moves the specified files to a '.Recycle' folder.
+function re()
+{
+    mkdir -p ~/.Recycle
+
+    mv --backup='numbered' -fv "$@" ~/.Recycle/
+}
+
+# Automatically run 'ls' after changing directory.
+function cd()
+{
+    builtin cd "$@" && ls;
+}
+
+# Navigate up one directory. This is here instead of in aliases
+# so that it uses the above overload of cd.
+function up()
+{
+	cd ..
+}
+
+# Create a Python Virtual environment
+_python_venvs_home=$HOME/python_venvs
+function create_venv()
+{
+    mkdir -p $_python_venvs_home
+    python3 -m venv $_python_venvs_home/$1
+}
+
+function activate() 
+{
+    source $1/bin/activate
+}
+
+# Activate the specified global Python Virtual environment
+function gactivate()
+{
+    source $_python_venvs_home/$1/bin/activate
+}
+_gactivate()
+{
+    COMPREPLY=()
+    COMPREPLY=$(/bin/ls $_python_venvs_home | tr "\n " " ")
+}
+complete -F _gactivate gactivate
+
+function git-unpublish()
+{
+	for arg in "$@"
+	do
+		git push origin :"$arg"
+	done
+	git status;
+}
+
+function git-push-all()
+{
+	git push -u origin --all;
+	git status;
+}
+
+function git-status()
+{
+	git status;
+	git fetch --dry-run;
+}
+
+function git-track()
+{
+	git checkout -t "$@"
+}

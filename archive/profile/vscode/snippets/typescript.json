@@ -1,0 +1,62 @@
+{
+    // Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "Async Test Case": {
+        "prefix": "atst",
+        "body": [
+            "test('$1', async () => {",
+            "    ${0:fail();}",
+            "});",
+        ],
+        "description": "New async test case"
+    },
+
+    "Test Case": {
+        "prefix": "tst",
+        "body": [
+            "test('$1', () => {",
+            "    ${0:fail();}",
+            "});",
+        ],
+        "description": "New test case"
+    },
+
+    "Describe block": {
+        "prefix": "des",
+        "body": [
+            "describe('$1', () => {",
+            "    $0",
+            "});",
+        ]   
+    },
+
+    "Arrow func with braces": {
+        "prefix": "arr",
+        "body": "() => {\n    $1\n}"
+    },
+    "Vue test imports": {
+        "prefix": "vuetest",
+        "body": [
+            "import * as ag_cli from 'ag-client-typescript';",
+            "import * as sinon from 'sinon';",
+            "",
+            "import * as data_ut from '@/tests/data_utils';",
+            "import { managed_mount } from '@/tests/setup';",
+        ]
+    },
+    "Console Log": {
+        "prefix": "log",
+        "body": "console.log($0);"
+    }
+}

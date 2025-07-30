@@ -2,6 +2,9 @@ profile_dir=$(dirname $(realpath "$BASH_SOURCE"))
 
 alias refresh-profile='source ~/.bashrc'
 
+# Clear the screen (no scrollback
+alias clr='printf "\033c"'
+
 alias ls="ls --color=auto -Fh"
 alias ll='ls -l'
 alias la='ls -a'

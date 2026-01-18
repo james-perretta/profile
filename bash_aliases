@@ -1,5 +1,10 @@
 profile_dir=$(dirname $(realpath "$BASH_SOURCE"))
 
+echo "Loading local.bash (things specific to this computer not saved to repo)"
+source $profile_dir/local.bash
+
+echo "Loading aliases"
+
 alias refresh-profile='source ~/.bashrc'
 
 # Clear the screen (no scrollback

@@ -85,6 +85,13 @@ function git-unpublish() {
     git status;
 }
 
+# Add SSH key to the ssh-agent. 
+# Useful when ssh key is password protected.
+function sshkey() {
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_ed25519
+}
+
 # ==================== PYTHON =======================
 
 # Create a global Python Virtual environment

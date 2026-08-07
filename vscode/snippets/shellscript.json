@@ -15,7 +15,7 @@
 	"Script dir": {
 		"prefix": "scriptdir",
 		"body": [
-			"script_dir=$(basename $(realpath \"$0\"))"
+			"script_dir=$(basename $(realpath \"\$0\"))"
 		],
 		"description": ""
 	}

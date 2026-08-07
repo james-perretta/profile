@@ -72,6 +72,7 @@ alias gc='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
 alias gfo='git fetch origin'
+alias gsfr='git submodule foreach --recursive'
 
 function gitignore() {
     printf "%s\n" "$@" >> .gitignore

@@ -38,7 +38,11 @@
         "command": "workbench.action.quickOpen",
     },
     {
-        "key": "ctrl+g ctrl+s",
+        "key": "ctrl+g ctrl+shift+s",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+shift+g ctrl+shift+s",
         "command": "workbench.action.showAllSymbols"
     },
     {
@@ -46,21 +50,12 @@
         "command": "-workbench.action.showAllSymbols"
     },
     {
-        "key": "ctrl+r",
+        "key": "ctrl+g ctrl+s",
         "command": "workbench.action.gotoSymbol"
     },
     {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.openRecent"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
-        "when": "inQuickOpen && inRecentFilesPicker"
     },
     {
         "key": "ctrl+k ctrl+0",

@@ -73,6 +73,11 @@ alias gp='git push'
 alias gpl='git pull'
 alias gfo='git fetch origin'
 alias gsfr='git submodule foreach --recursive'
+alias ghprreview='gh pr list --search "review-requested:@me"'
+
+function gpuo() {
+    git push -u origin $(git branch --show-current)
+}
 
 function gitignore() {
     printf "%s\n" "$@" >> .gitignore
